@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Create:UserAPW is:123]]>
+    </line>
+    <line>
+      <![CDATA[Create:UserBPW is:456]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65" started-at="2019-03-06T06:05:58Z" finished-at="2019-03-06T06:05:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65" started-at="2019-03-06T06:05:58Z" finished-at="2019-03-06T06:05:58Z">
+      <class name="dataprovider.DemoB">
+        <test-method status="PASS" signature="testA(java.lang.String, int)[pri:0, instance:dataprovider.DemoB@4678c730]" name="testA" duration-ms="17" started-at="2019-03-06T06:05:58Z" data-provider="getData" finished-at="2019-03-06T06:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create:UserAPW is:123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.lang.String, int)[pri:0, instance:dataprovider.DemoB@4678c730]" name="testA" duration-ms="4" started-at="2019-03-06T06:05:58Z" data-provider="getData" finished-at="2019-03-06T06:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create:UserBPW is:456]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- dataprovider.DemoB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
